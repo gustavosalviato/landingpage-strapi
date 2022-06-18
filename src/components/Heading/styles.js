@@ -10,15 +10,22 @@ export const titleSize = {
     `,
 
     large: (theme) => css`
-        font-size: ${theme.font.sizes.large}
+        font-size: ${theme.font.sizes.xlarge};
+        ${mediaFont(theme)}
     `,
 };
 
 const titleCase = (uppercase) => css`
     text-transform: ${uppercase ? 'uppercase' : 'none'};
+    
 `;
 
+const mediaFont = (theme) => css`
+    @media ${theme.media.lteMedium}{
+        font-size: ${theme.font.sizes.large};
+    }
 
+`;
 
 export const Title = styled.h1`
     ${({ theme, size, uppercase }) => css`

@@ -13,7 +13,11 @@ export const theme = {
             small: '2.4rem',
             medium: '3.2rem',
             large: '4.0rem',
+            xlarge: '5.4rem'
         }
     },
+    media: {
+        lteMedium: '(max-width: 768px)'
+    }
 
 }
