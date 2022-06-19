@@ -10,9 +10,13 @@ export const titleSize = {
     `,
 
     large: (theme) => css`
-        font-size: ${theme.font.sizes.xlarge};
+        font-size: ${theme.font.sizes.large};
         ${mediaFont(theme)}
     `,
+
+    xlarge: (theme) => css`
+    font-size: ${theme.font.sizes.xlarge};
+`,
 };
 
 const titleCase = (uppercase) => css`
@@ -22,7 +26,7 @@ const titleCase = (uppercase) => css`
 
 const mediaFont = (theme) => css`
     @media ${theme.media.lteMedium}{
-        font-size: ${theme.font.sizes.large};
+        font-size: ${theme.font.sizes.xlarge};
     }
 
 `;
