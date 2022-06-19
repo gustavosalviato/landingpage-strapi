@@ -37,7 +37,4 @@ export const Title = styled.h1`
         ${titleSize[size](theme)};
         ${titleCase(uppercase)}
     `}; 
-
-    
-
 `;

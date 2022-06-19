@@ -1,7 +1,7 @@
 import { renderTheme } from "../../styles/render-theme";
 import { Heading } from '.'
 import { screen } from '@testing-library/react';
-import { theme } from '../../styles/theme'
+import { theme } from '../../styles/theme';
 
 describe('<Heading />', () => {
     it('should render with default values', () => {
