@@ -5,6 +5,7 @@ export const Container = styled.a`
     display: block;
     text-decoration: none;
     font-size: ${theme.font.sizes.small};
+    font-family: ${theme.font.family.default};
     padding: ${theme.spacings.small};
     color: ${theme.colors.lightBg};
     position: relative;
@@ -13,7 +14,7 @@ export const Container = styled.a`
     &::after {
       content: '';
       position: absolute;
-      bottom: 0.76rem;
+      bottom: 0.8rem;
       left: 50%;
       width: 0;
       height: 0.2rem;
@@ -21,7 +22,7 @@ export const Container = styled.a`
       transition: all 300ms ease-in-out;
     }
 
-    
+
     &:hover::after {
       left: 25%;
       width: 50%;
