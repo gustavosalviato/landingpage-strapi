@@ -18,6 +18,13 @@ export const theme = {
     },
     media: {
         lteMedium: '(max-width: 768px)'
+    },
+
+    spacings: {
+        small: '2.4rem',
+        medium: '3.2rem',
+        large: '4.0rem',
+        xlarge: '5.4rem',
     }
 
 }
