@@ -3,6 +3,7 @@ export const theme = {
         lightBg: '#FFFFFF',
         darkBg: '#0a1128',
         secondaryBg: '#dc143c',
+        mediumGray: '#DDD'
     },
     font: {
         family: {
