@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 const containerBackgroundActive = (theme) => css`
-        background: ${theme.colors.secondaryBg};
+        background: ${theme.colors.lightBg};
         color: ${theme.colors.darkBg};
 
 `

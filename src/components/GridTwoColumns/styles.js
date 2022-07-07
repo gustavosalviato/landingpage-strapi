@@ -1,8 +1,8 @@
 import styled, { css } from "styled-components";
 import { Title } from '../Heading/styles';
-
+import { Text } from '../TextComponent/styles'
 export const Container = styled.div`
-    ${({ theme }) => css`
+    ${({ theme, background }) => css`
         display: grid;
         grid-template-columns: 1fr 2fr;
         align-items: center;
@@ -14,7 +14,13 @@ export const Container = styled.div`
         }
 
         ${Title}{
-            margin-bottom: ${theme.spacings.large}
+            margin-bottom: ${theme.spacings.large};
+            color: ${background ? theme.colors.darkBg : theme.colors.lightBg};
+        }
+
+        ${Text}{
+            color: ${background ? theme.colors.darkBg : theme.colors.lightBg};
+            
         }
     `}
 
