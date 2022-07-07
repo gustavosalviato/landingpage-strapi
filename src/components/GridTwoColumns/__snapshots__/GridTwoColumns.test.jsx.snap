@@ -3,16 +3,16 @@
 exports[`<GridTwoColumns /> should render with grid two columns 1`] = `
 <div>
   <div
-    class="sc-jSMfEi fsWcgl"
+    class="sc-gKXOVf fJFMUE"
   >
     <div
-      class="sc-gKXOVf jkAMra"
+      class="sc-iBkjds esRwus"
     >
       <div
-        class="sc-gsnTZi cuVSJr"
+        class="sc-dkzDqf UfjXb"
       >
         <div
-          class="sc-dkzDqf eVXjja"
+          class="sc-hKMtZM kvgAlZ"
         >
           <h1
             class="sc-bczRLJ dwomzY"
@@ -20,17 +20,17 @@ exports[`<GridTwoColumns /> should render with grid two columns 1`] = `
             Grid two columns
           </h1>
           <p
-            class="sc-iBkjds jwRHie"
+            class="sc-gsnTZi flEwpi"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam culpa eveniet doloribus harum? Ipsam, a necessitatibus? Sequi sunt accusantium quod, animi iure a, aliquid dolor ea vel magni dolore?
           </p>
         </div>
         <div
-          class="sc-hKMtZM ecMsDi"
+          class="sc-eCYdqJ fsQnOX"
         >
           <img
             alt="Grid two columns"
-            class="sc-eCYdqJ PKhDI"
+            class="sc-jSMfEi bZHBBC"
             src="assets/images/coffe.svg"
           />
         </div>

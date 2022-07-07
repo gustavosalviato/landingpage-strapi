@@ -3,9 +3,9 @@ import P from 'prop-types';
 
 export const TextComponent = ({ children }) => {
     return (
-        <Styled.Text>
-            {children}
-        </Styled.Text>
+        <Styled.Text dangerouslySetInnerHTML={{ __html: children }} />
+
+
     );
 }
 
