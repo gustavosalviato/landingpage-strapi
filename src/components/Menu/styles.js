@@ -2,9 +2,14 @@ import styled, { css } from "styled-components";
 import { Container as SectionContainer } from '../SectionContainer/styles'
 import { Title as Heading } from '../Heading/styles';
 
+const menuVisible = (theme) => css`
+    visibility: visible;
+    opacity: 1;
+`;
+
 //Style for Mobile
 export const Container = styled.div`
- ${({ theme }) => css`
+ ${({ theme, visible }) => css`
     position: fixed;
     z-index: 5;
     bottom: 0;
@@ -13,6 +18,7 @@ export const Container = styled.div`
     right: 0;
     width: 100%;
     background: ${theme.colors.darkBg};
+    transition: all 300ms ease-in-out;
  
     >${SectionContainer}{
         padding-top: 0;
@@ -27,6 +33,9 @@ export const Container = styled.div`
 
     @media ${theme.media.lteMedium}{
     height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+    ${visible && menuVisible(theme)}
 
     > ${SectionContainer}{
         display: grid;
@@ -46,8 +55,7 @@ export const Container = styled.div`
         padding-bottom: ${theme.spacings.large};
     }
 
- }
- `}
+ }`}
  
 `;
 
@@ -65,6 +73,35 @@ export const MenuContainer = styled.div`
     }
     `}
 
-    
 
-`
+`;
+
+export const Button = styled.button`
+    ${({ theme, visible }) => css`
+        z-index: 6;
+        position: fixed;
+        top: 2rem;
+        right: 2rem;
+        width: 4rem;
+        height: 4rem;
+        background: ${theme.colors.darkBg};
+        color: ${theme.colors.lightBg};
+        border: none;
+        display: none;
+        cursor: pointer;
+        pointer-events: ${visible ? 'none' : 'all'};
+
+        @media ${theme.media.lteMedium}{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    `}
+
+    >svg{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+
+`;
