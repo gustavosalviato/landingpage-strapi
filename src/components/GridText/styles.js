@@ -1,11 +1,15 @@
-import styled, { css } from 'styled-components'
+import styled, { css, ThemeConsumer } from 'styled-components'
 import { Title } from '../Heading/styles'
 import { Text } from '../TextComponent/styles'
 export const Container = styled.div`
-    ${({ theme }) => css`
+    ${({ theme, background }) => css`
         ${Text}{
             margin-bottom: ${theme.spacings.small};;
         }
+
+    > ${Title}{
+        color: ${background ? 'red' : 'tomato'};
+    }
 
     `}
 `

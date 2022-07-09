@@ -4,11 +4,17 @@ import { Heading } from '../Heading'
 import { TextComponent } from '../TextComponent'
 import P, { shape } from 'prop-types'
 
-export const GridText = ({ title, description, background, grid }) => {
+export const GridText = ({ title, description, background = false, grid }) => {
     return (
-        <SectionBackground>
+        <SectionBackground background={background}>
             <Styled.Container>
-                <Heading uppercase >{title}</Heading>
+                <Heading
+                    uppercase
+                    background={background}
+                >
+                    {title}
+                </Heading>
+
                 <TextComponent>{description}</TextComponent>
 
                 <Styled.Grid>

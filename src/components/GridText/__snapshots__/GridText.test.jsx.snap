@@ -3,86 +3,13 @@
 exports[`<GridText /> should render grid text with background 1`] = `
 <div>
   <div
-    class="sc-jSMfEi fsWcgl"
+    class="sc-jSMfEi evurVV"
   >
     <div
       class="sc-gKXOVf jkAMra"
     >
       <div
-        class="sc-dkzDqf kzmDre"
-      >
-        <h1
-          class="sc-bczRLJ jHDVDg"
-        >
-          My grid
-        </h1>
-        <p
-          class="sc-gsnTZi flEwpi"
-        >
-          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
-        <div
-          class="sc-hKMtZM jKzOKT"
-        >
-          <div
-            class="sc-eCYdqJ CEbAz"
-          >
-            <h1
-              class="sc-bczRLJ jHDVDg"
-            >
-              Teste 1
-            </h1>
-            <p
-              class="sc-gsnTZi flEwpi"
-            >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
-          </div>
-          <div
-            class="sc-eCYdqJ CEbAz"
-          >
-            <h1
-              class="sc-bczRLJ jHDVDg"
-            >
-              Teste 2
-            </h1>
-            <p
-              class="sc-gsnTZi flEwpi"
-            >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
-          </div>
-          <div
-            class="sc-eCYdqJ CEbAz"
-          >
-            <h1
-              class="sc-bczRLJ jHDVDg"
-            >
-              Teste 3
-            </h1>
-            <p
-              class="sc-gsnTZi flEwpi"
-            >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`<GridText /> should render grid text with background 2`] = `
-<div>
-  <div
-    class="sc-jSMfEi fsWcgl"
-  >
-    <div
-      class="sc-gKXOVf jkAMra"
-    >
-      <div
-        class="sc-dkzDqf kzmDre"
+        class="sc-dkzDqf fVnFsK"
       >
         <h1
           class="sc-bczRLJ jHDVDg"
@@ -155,7 +82,7 @@ exports[`<GridText /> should render grid text without background 1`] = `
       class="sc-gKXOVf jkAMra"
     >
       <div
-        class="sc-dkzDqf kzmDre"
+        class="sc-dkzDqf fVnFsK"
       >
         <h1
           class="sc-bczRLJ jHDVDg"

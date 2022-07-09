@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 import { Title } from '../Heading/styles';
 import { Text } from '../TextComponent/styles';
+
 export const Container = styled.div`
     ${({ theme, background }) => css`
         max-width: 58rem;

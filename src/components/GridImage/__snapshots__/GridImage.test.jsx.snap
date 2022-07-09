@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridImage /> should render grid image with background 1`] = `
+<div>
+  <div
+    class="sc-eCYdqJ jdVqrb"
+  >
+    <div
+      class="sc-jSMfEi yhBnn"
+    >
+      <div
+        class="sc-bczRLJ dhcUoc"
+      >
+        <h1
+          class="sc-gKXOVf hiRyZM"
+        >
+          My grid
+        </h1>
+        <p
+          class="sc-iBkjds jwRHie"
+        >
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+        </p>
+        <div
+          class="sc-gsnTZi cnoQKq"
+        >
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=1"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=1"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=2"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=2"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=3"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=3"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=4"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=4"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=5"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=5"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=6"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=6"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridImage /> should render grid image without background 1`] = `
+<div>
+  <div
+    class="sc-eCYdqJ mMtnj"
+  >
+    <div
+      class="sc-jSMfEi yhBnn"
+    >
+      <div
+        class="sc-bczRLJ dhcUoc"
+      >
+        <h1
+          class="sc-gKXOVf hiRyZM"
+        >
+          My grid
+        </h1>
+        <p
+          class="sc-iBkjds jwRHie"
+        >
+          Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+        </p>
+        <div
+          class="sc-gsnTZi cnoQKq"
+        >
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=1"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=1"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=2"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=2"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=3"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=3"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=4"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=4"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=5"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=5"
+            />
+          </div>
+          <div
+            class="sc-dkzDqf cVVNfV"
+          >
+            <img
+              alt="https://source.unsplash.com/random/800x800?r=6"
+              class="sc-hKMtZM jkrUDF"
+              src="https://source.unsplash.com/random/800x800?r=6"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
