@@ -16,11 +16,11 @@ exports[`<GridText /> should render grid text with background 1`] = `
         >
           My grid
         </h1>
-        <p
+        <div
           class="sc-gsnTZi flEwpi"
         >
           Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="sc-hKMtZM jKzOKT"
         >
@@ -32,11 +32,11 @@ exports[`<GridText /> should render grid text with background 1`] = `
             >
               Teste 1
             </h1>
-            <p
+            <div
               class="sc-gsnTZi flEwpi"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="sc-eCYdqJ CEbAz"
@@ -46,11 +46,11 @@ exports[`<GridText /> should render grid text with background 1`] = `
             >
               Teste 2
             </h1>
-            <p
+            <div
               class="sc-gsnTZi flEwpi"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="sc-eCYdqJ CEbAz"
@@ -60,11 +60,11 @@ exports[`<GridText /> should render grid text with background 1`] = `
             >
               Teste 3
             </h1>
-            <p
+            <div
               class="sc-gsnTZi flEwpi"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -89,11 +89,11 @@ exports[`<GridText /> should render grid text without background 1`] = `
         >
           My grid
         </h1>
-        <p
+        <div
           class="sc-gsnTZi flEwpi"
         >
           Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="sc-hKMtZM jKzOKT"
         >
@@ -105,11 +105,11 @@ exports[`<GridText /> should render grid text without background 1`] = `
             >
               Teste 1
             </h1>
-            <p
+            <div
               class="sc-gsnTZi flEwpi"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="sc-eCYdqJ CEbAz"
@@ -119,11 +119,11 @@ exports[`<GridText /> should render grid text without background 1`] = `
             >
               Teste 2
             </h1>
-            <p
+            <div
               class="sc-gsnTZi flEwpi"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
           <div
             class="sc-eCYdqJ CEbAz"
@@ -133,11 +133,11 @@ exports[`<GridText /> should render grid text without background 1`] = `
             >
               Teste 3
             </h1>
-            <p
+            <div
               class="sc-gsnTZi flEwpi"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
-            </p>
+            </div>
           </div>
         </div>
       </div>

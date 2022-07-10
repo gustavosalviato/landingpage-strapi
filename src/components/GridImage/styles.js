@@ -17,7 +17,7 @@ export const Grid = styled.div`
         
         @media ${theme.media.lteMedium}{
             grid-template-columns: 1fr;
-
+a
         }
     `}
 `

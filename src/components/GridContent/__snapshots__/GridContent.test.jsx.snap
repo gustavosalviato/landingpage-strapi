@@ -19,7 +19,7 @@ exports[`<GridContent /> should render links 1`] = `
         <div
           class="sc-hKMtZM cUtcCO"
         >
-          <p
+          <div
             class="sc-gsnTZi flEwpi"
           >
             <p>
@@ -110,7 +110,7 @@ exports[`<GridContent /> should render links 1`] = `
     
               </code>
             </pre>
-          </p>
+          </div>
         </div>
       </div>
     </div>
